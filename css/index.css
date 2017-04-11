@@ -1,0 +1,248 @@
+/*
+* @Author: Administrator
+* @Date:   2017-04-02 22:56:10
+* @Last Modified by:   Administrator
+* @Last Modified time: 2017-04-04 16:26:54
+*/
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+img{
+	display: block;
+}
+/* 头开始 */
+.tou{
+	width: 100%;
+	height: 32px;
+	background: #f2f2f2;
+	font-size: 12px;
+	color: #999;
+}
+.tou .t{
+	width: 1230px;
+	height: 32px;
+	margin: 0 auto;
+	line-height: 32px;
+}
+.tou .t .zuo{
+	width: auto;
+	height: 32px;
+	float: left;
+	padding: 0px 10px;
+}
+.tou .t a{
+	color: #999;
+}
+.tou .t a:hover{
+	color: #DD2727;
+}
+.tou .t .yu{
+	width: auto;
+	height: 32px;
+	float: right;
+	padding: 0px 10px;
+}
+/* 头结束 */
+/* 搜索开始 */
+.sou{
+	width: 1230px;
+	height: 130px;
+	margin: 0 auto;
+}
+.sou img{
+	float: left;
+}
+.sou form{
+	width: 625px;
+	height: 40px;
+	border: 2px solid #DD2727;
+	float: left;
+	margin-top: 50px;
+}
+.sou form input{
+	width: 491px;
+	height: 36px;
+	float: left;
+}
+.sou form .ss{
+	width: 130px;
+	height: 40px;
+	background: #DD2727;
+	float: left;
+	font-size: 20px;
+	color: #fff;
+	line-height: 40px;
+	text-align: center;
+}
+/* 搜索结束 */
+/* 导航开始 */
+.nav{
+	width: 100%;
+	height: 36px;
+	background: #DD2727;
+}
+.nav div{
+	width: 1230px;
+	margin: 0 auto;
+	font-size: 18px;
+	line-height: 32px;
+}
+.nav div .shp{
+	width: 170px;
+	height: 36px;
+	background: #C60A0A;
+	padding: 0px 15px;
+	color: #fff;
+	float: left;
+}
+.nav div a{
+	display: block;
+	width: auto;
+	height: 36px;
+	padding: 0px 12px;
+	float: left;
+	color: #fff;
+	position: relative;
+
+}
+.nav div a img{
+	position: absolute;
+	bottom: 22px;
+	right: 15px;
+	z-index: -1;
+	display: none;
+
+}
+.nav div a:hover img{
+	display: block;
+}
+/* 导航结束 */
+/* banner开始 */
+.ban{
+	width: 100%;
+	height: 500px;
+	background: #E8E8E8;
+}
+.ban div{
+	width: 1230px;
+	height: 500px;
+	margin: 0 auto;
+	position: relative;
+
+}
+.ban div img{
+	float: right;
+}
+.ban .fg .lb{
+	width: 200px;
+	height: 500px;
+	background: #EFEFEF;
+	position: absolute;
+	z-index: 5
+}
+.ban .fg .lb ul{
+	width: 200px;
+	height: 500px;
+}
+.ban .fg .lb ul li{
+	display: block;
+	width: 200px;
+	height: 31px;
+	line-height: 31px;
+	padding: 0px 15px;
+}
+.ban .fg .lb ul li a{
+	color: #000; 
+}
+.ban .fg .lb ul li .l1:hover{
+	color: #F4295E; 
+}
+.ban .fg .lb ul li .l2:hover{
+	color: #3879D9; 
+}
+.ban .fg .lb ul li .cllb{
+	width: 852px;
+	height: 500px;
+	background: #ccc;
+	position: absolute;
+	top: 0px;
+	left: 200px;
+
+}
+.ban .fg .lb ul li .cllb .zuo{
+	width: 644px;
+	height: 500px;
+	background: #fff;
+	float: left;
+}
+.ban .fg .lb ul li .cllb .yupp{
+	width: 188px;
+	height: 500px;
+	background: #E8E8E8;
+	float: right;
+	margin: 0px 9px;
+}
+.ban .fg .lb ul li .cllb .zuo .h{
+	width: 640px;
+	height: auto;
+	font-size: 14px;
+	color: #000;
+}
+.ban .fg .lb ul li .cllb .zuo .h .mz{
+	width: 90px;
+	height: 40px;
+	float: left;
+	text-align: center;
+	line-height: 40px;
+}
+.ban .fg .lb ul li .cllb .zuo .h .nr{
+	width: 480px;
+	height: auto;
+	float: left;
+	margin-left: 20px;
+	font-size: 14px;
+	border-bottom: 1px dashed #ccc;
+}
+.ban .fg .lb ul li .cllb .zuo .h .nr span{
+	color: #3879D9;
+	font-size: 14px;
+}
+.ban .fg .lb ul li .cllb .yupp .logo{
+	float: left;
+    width: 73px;
+    margin-right: 1px;
+    margin-bottom: 1px;
+    height: 37px;
+    padding: 5px 10px;
+    overflow: hidden;
+    background-color: #fff;
+}
+.ban .fg .lb .cllb{
+	display: none;
+}
+.ban .fg .lb ul li:hover .cllb{
+	display: block;
+}
+
+/* banner结束 */
+
+.zhibo{
+	width: 1230px;
+	height: 436px;
+	margin: 0 auto;
+}
+.zhibo .left{
+	width: 488px;
+	height: 436px;
+	float: left;
+}
+.zhibo .right{
+	width: 732px;
+	height: 436px;
+	float: right;
+}
